@@ -33,7 +33,7 @@
 </div>
 
 <div class="form_item_block">
-    <label ng-class="{'is-invalid-label': GOINPUTNAME[Privileged].$error.server}">Privileged<small>(Enter one variable per line)</small></label>
-    <input ng-class="{'is-invalid-input': GOINPUTNAME[Privileged].$error.server}" type="checkbox" ng-model="Privileged" ng-required="false" ></input>
+    <label ng-class="{'is-invalid-label': GOINPUTNAME[Privileged].$error.server}">Privileged</label>
+    <input ng-class="{'is-invalid-input': GOINPUTNAME[Privileged].$error.server}" type="text" ng-model="Privileged" ng-required="false" ></input>
     <span class="form_error form-error" ng-class="{'is-visible': GOINPUTNAME[Privileged].$error.server}" ng-show="GOINPUTNAME[Privileged].$error.server">{{GOINPUTNAME[Privileged].$error.server}}</span>
 </div>
